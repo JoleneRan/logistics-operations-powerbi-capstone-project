@@ -1,0 +1,21 @@
+# Power BI temporary / backup files
+*.pbit
+*.tmp
+*.bak
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# Temporary exports
+*.log
