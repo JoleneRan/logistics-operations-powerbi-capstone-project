@@ -59,9 +59,18 @@ Provides visibility into safety incidents and their operational impact.
 - Safety incidents by type
 - Vehicle damage cost by incident type
 
-## Dashboard Preview
+## Dashboard Screenshots
 
-![Dashboard Preview](screenshots/dashboard-preview.png)
+| Dashboard | Preview |
+|---|---|
+| Executive Overview | [View screenshot](screenshots/01-executive-overview.png) |
+| Operations & Fleet Performance | [View screenshot](screenshots/02-operations-fleet-performance.png) |
+| Delivery Performance | [View screenshot](screenshots/03-delivery-performance.png) |
+| Safety & Driver Performance | [View screenshot](screenshots/04-safety-driver-performance.png) |
+
+## Live Demo
+
+An online Power BI report is not currently published. The interactive dashboard is provided as a **Power BI Desktop (.pbix)** file so the full data model, DAX measures, relationships, and visuals can be explored locally.
 
 ## Key KPIs
 
@@ -100,7 +109,7 @@ The Power BI model contains operational tables covering:
 - Driver Monthly Metrics
 - Date dimension
 
-A dedicated DateTable supports time-based analysis and chronological reporting.
+A dedicated **DateTable** supports time-based analysis and chronological reporting.
 
 Key DAX measures include:
 
@@ -141,29 +150,26 @@ Key DAX measures include:
 logistics-operations-powerbi-capstone-project/
 │
 ├── README.md
-├── Logistics Operations Dashboard.pbix
+├── Capstone project.pbix
 │
 ├── screenshots/
 │   ├── 01-executive-overview.png
 │   ├── 02-operations-fleet-performance.png
 │   ├── 03-delivery-performance.png
 │   ├── 04-safety-driver-performance.png
-│   └── dashboard-preview.png
-│
-├── assets/
-│   └── portfolio-cover.png
+│   └── README.md
 │
 └── .gitignore
 ```
 
 ## How to View the Project
 
-1. Download the `.pbix` file.
+1. Download **Capstone project.pbix** from this repository.
 2. Open it with **Power BI Desktop**.
 3. Use the page tabs to navigate between the four dashboards.
-4. Interact with the visuals and filters to explore the underlying analysis.
+4. Interact with the visuals and filters to explore the analysis.
 
-> Note: Power BI Desktop is required to open and edit the PBIX file.
+> **Note:** Power BI Desktop is required to open and edit the PBIX file.
 
 ## Portfolio Highlights
 
